@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: e2e-p-11051145-2
+  description: auto run 2
+  annotations:
+    github.com/project-slug: limp-idp-prj/e2e-p-11051145-2
+    argocd/app-name: e2e-p-11051145-2
+    backstage.io/kubernetes-id: e2e-p-11051145-2
+    backstage.io/kubernetes-namespace: e2e-p-11051145-2
+  links:
+    - url: http://e2e-p-11051145-2.localtest.me
+      title: Service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/platform
